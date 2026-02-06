@@ -1,3 +1,9 @@
+/**
+- 병렬 처리
+- 작업 하나의 단위를 worker
+- 보통 cpu 코어의 개수 만큼 worker를 발생시켜 병렬 처리
+ */
+
 var cluster = require("cluster"); // cluster가 코어 하나에 할당된다. 또 만들면 다른 코어에 할당된다.
 // 또 만들면 이미 클러스터가 할당된 코어에 또 할당된다. 처음은 master, 이때는 worker가 된다.
 
