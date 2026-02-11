@@ -5,6 +5,9 @@
   "dependencies": {
     "arraylist": "*",
     "express": "*",
-    "ejs": "*"
+    "ejs": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "express-session": "*"
   }
 }
